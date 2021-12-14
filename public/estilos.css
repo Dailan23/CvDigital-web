@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("https://isenacode.com/wp-content/uploads/2021/06/iphone-wallpaper-fondo-de-pantalla-s24-2021.jpg");
+     background-position:center;
+     background-size: cover;
+     background-repeat: no-repeat;
+  
+  }
+  
+  section{
+    position: relative;
+  
+    background-color: rgba(247, 245, 245, 0.5);
+    padding: 20px;
+    position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    text-align:center;
+    border-radius: 5px;
+    border: 2px solid wheat;
+    
+    color: white;
+    font-weight: 300;
+  }
+  .myProfileImage{
+  
+    border-radius: 40%;
+    position: absolute;
+    /* opacity: .6; */
+    top: 50px;
+    left: 0;
+  
+  }
+
+  .myProfile{
+      opacity: 0;
+      transition: all 1s;
+      animation: move 4s  infinite alternate;
+  }
+  @keyframes move{
+      0%{
+       opacity: 0;
+      }
+      100%{
+
+      opacity: 1;
+      }
+  }
+  
+  
+  .backButton{
+    right: 10px;
+    position: absolute;
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#333333;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color:#FFD27D;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    
+  }
+  
+  
+  .title{
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(253, 239, 239);
+    
+
+  }
+  .titles{
+    font-family: fantasy;
+    text-align: left;
+    color: rgb(245, 237, 237);
+  }
+  li {
+    color: rgb(255, 255, 255);
+    text-align: left;
+  }
+  
+  .experiencialaboral{
+  
+    line-height: 6px; 
+    color: white;
+  }
+  a{
+      color: white;
+  }
+  
+  @media (max-width:700px ) {
+  
+    .p{
+      font-size: 12px;
+      color: rgb(242, 230, 230);
+  
+    }
+    .h{
+      
+      font-size: 18px;
+      color: rgb(255, 255, 255);
+      
+  
+    }
+ 
+  
+  }
+  .footer{
+    line-height: 1px;
+  }
+  

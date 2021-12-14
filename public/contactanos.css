@@ -1,0 +1,25 @@
+body{
+	padding: 0;
+    margin: 0;
+    background-image: url("https://isenacode.com/wp-content/uploads/2021/06/iphone-wallpaper-fondo-de-pantalla-s24-2021.jpg");
+     background-position:center;
+     background-size: cover;
+     background-repeat: no-repeat;
+	
+
+color: white;
+font-family: 'Merriweather', serif;
+
+}
+
+
+.bioImage{
+	border-radius: 50%;
+	width: 230px;
+	
+}
+.main{
+   
+	box-shadow: 2px 4px 4px white;
+	
+}
